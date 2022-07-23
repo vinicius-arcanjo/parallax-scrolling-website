@@ -3,7 +3,7 @@
 > You can access this project through the link: [Parallax]()
 
 
-![Social Feed](screenshot.png)
+![Parallax Scrolling Effect](screenshot.png)
 
 ## What is inside?
 
