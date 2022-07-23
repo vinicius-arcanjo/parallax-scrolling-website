@@ -1,0 +1,14 @@
+{
+  "name": "parallax-scrolling-website",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:vinicius-arcanjo/parallax-scrolling-website.git",
+  "author": "Vinicius Arcanjo <vinicius@arcanjo.dev>",
+  "license": "MIT",
+  "scripts": {
+    "sass": "sass --watch --style compressed src/scss:src/css"
+  },
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
