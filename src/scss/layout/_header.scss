@@ -1,0 +1,51 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: $spacing--xlarge $spacing--large * 4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: $layer--menu;
+
+  .ark-logo {
+    color: $color--white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: $font--large;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        list-style: none;
+        margin-left: $spacing--medium;
+
+        a {
+          color: $color--white;
+          padding: $spacing--small $spacing--medium;
+          text-decoration: none;
+          border-radius: $border--radius;
+          transition: 0.2s ease-in-out;
+
+          &:hover {
+            background-color: $color--white;
+            color: $color--green--500;
+          }
+        }
+
+        .ark-active {
+          background-color: $color--white;
+          color: $color--green--500;
+        }
+      }
+    }
+  }
+}

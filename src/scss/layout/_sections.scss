@@ -1,0 +1,74 @@
+.ark-parallax {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: -8rem;
+    width: 100%;
+    height: 15rem;
+    background: linear-gradient(to top, $color--green--900, $color--green--800, transparent);
+    z-index: $layer--alwaysOnTop;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    h2 {
+      color: $color--white;
+      white-space: nowrap;
+      font-size: $font--large * 3;
+      z-index: $layer--base
+    }
+
+    a {
+      text-decoration: none;
+      cursor: pointer;
+      padding: $spacing--small $spacing--xlarge;
+      margin-top: $spacing--large;
+      border-radius: $border--radius;
+      border: none;
+      background-color: $color--white;
+      color: $color--green--500;
+      font-size: $font--large;
+      z-index: $layer--base;
+    }
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    #moon, #fireflies {
+      mix-blend-mode: screen;
+    }
+  }
+}
+
+.ark-content {
+  position: relative;
+  padding: $spacing--xlarge * 3;
+  background-color: $color--green--900;
+  z-index: $layer--alwaysOnTop;
+
+  h2 {
+    color: $color--white;
+    font-size: $font--medium * 2;
+    margin-bottom: $spacing--small;
+  }
+
+  p {
+    color: $color--white;
+    font-size: $font--large - 0.5rem;
+  }
+}
