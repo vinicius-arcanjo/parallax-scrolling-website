@@ -1,6 +1,6 @@
 ### Parallax scrolling effect project.
 
-> You can access this project through the link: [Parallax](https://vinicius-arcanjo.github.io/parallax-scrolling-website/)
+> You can access this project through the link: [Parallax](https://vinicius-arcanjo.github.io/parallax-scrolling-website/) and the tutorial on [Youtube](https://www.youtube.com/watch?v=UuF81KFArKs)
 
 
 ![Parallax Scrolling Effect](screenshot.png)
